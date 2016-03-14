@@ -1,4 +1,4 @@
-<h1><b>level 1 header</b></h1>
+<h1 id="start"><b>level 1 header</b></h1>
 <ul>
 	<li><a href="http://www.google.com">google</a></li>
 	<li><a href="http:/www.apple.com">apple</a></li>
@@ -50,7 +50,7 @@
 	<tr>
 		<td>data 1</td>
 		<td>data 2</td>
-		<td>operation</td>
+		<td><a href="#start">back to top</a></td>
 	</tr>
 	<tr>
 		<td>sum</td>
@@ -61,12 +61,12 @@
 <h2><b>header of the sidebar</b></h2>
 <form action="form_action.asp" method="get">
 	email address:
-	<input type="text" name="email"> <br />
+	<input type="email" name="email" placeholder="enter your email"> <br />
 	enter the address according to the instruction <br />
 	password:
-	<input type="text" name="password">
+	<input type="password" name="password" placeholder="enter your password">
 	password confirm:
-	<input type="text" name="password2"> <br />
+	<input type="password" name="password2" placeholder="confirm password"> <br />
 	password should be letter or number, 6-16 digits
 
 	Gender:
@@ -81,8 +81,8 @@
 	<input type="checkbox"> sport
 	<input type="checkbox"> science
 	self description:
-	<textarea name="description" id="discription" cols="30" rows="10"></textarea><br />
-	<input type="submit"> Submit <br />
+	<textarea name="description" id="discription" cols="30" rows="10" placeholder="this is your self-description"></textarea><br />
+	<input type="submit"><br />
 	Copyright Hao Fu
 </form>
 

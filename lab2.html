@@ -1,0 +1,233 @@
+<style type="text/css">
+	body{
+		background-color: #888888;
+		padding: 0;
+		margin:0;
+	}
+	div.content{
+		background-color: #DDDDDD;
+		padding: 10px;
+	}
+	div.art, .side{
+		background-color: white;
+		padding:20px;
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.header{
+		height: 50px;
+		background-color: #888888;
+	}
+	.logo{
+		float:left;
+		margin-left: 20px;
+	}
+	.header .navbar{
+		float:right;
+		margin-right: 20px;
+	}
+	.header .navbar li{
+		display: inline-block;
+	}
+	.header .logo img{
+		height: 50px;
+	}
+	.pic{
+		height: 80px;
+		width: 80px;
+		margin: 10px;
+		border: 1px solid black;
+	}
+	.pic .text, .image{
+		margin: 0;
+		padding: 0;
+	}
+	.pic .text p{
+		text-align: center;
+		font-size: 10;
+		height: 20px;
+		margin: 0;
+		padding: 0;
+	}
+	.pic .image img{
+		height: 50px;
+		width: 50px;
+		position: relative;
+		top: 5px;
+		left: 15px;
+	}
+	th{
+		background-color: black;
+		color:white;
+		text-align: left;
+	}
+	.sum{
+		background-color: #888888;
+	}
+	.sideContent{
+		text-align: center;
+	}
+	span{
+		color: grey;
+	}
+	#submit{
+		background-color: blue;
+		color: white;
+		width: 80%;
+	}
+	.header2{
+		color: grey;
+		font-size: 14;
+	}
+	.author{
+		color: grey;
+		font-size: 12;
+	}
+</style>
+<body id="start">
+<div class="header">
+	<div class="logo">
+		<img src="img/gg.png"> 
+	</div>
+
+	<div class="navbar">
+		<ul>
+			<li><a href="http://www.google.com">google</a></li>
+			<li><a href="http:/www.apple.com">apple</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="content">
+
+	<div class="art">
+		<h2><b>article header 1</b></h2>
+		<h2 class="header2"><b>article header 2</b></h2>
+		<p class="author">author publish_date</p>
+		<p>This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph. <a href="http://www.baidu.com">a link to baidu</a> This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.</p>
+		<img src="img/sjtu.png" alt="not support">
+
+		<h2><b>Another article header 1</b></h2>
+		<h2 class="header2"><b>Another article header 2</b></h2>
+		<p class="author">author publish_date</p>
+		<p>This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph. <a href="http://www.baidu.com">a link to baidu</a> This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.This is a long paragraph.</p>
+
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+
+	</div>
+
+	<div class="art">
+		<h2><b>Pictures</b></h2>
+		<div style="padding-left: 50px">
+			<div class="pic">
+				<div class="text">
+					<p>Pic</p>
+				</div> 
+				<div class="image">
+					<img src="img/sjtu.png" alt="not support">
+				</div>
+			</div>
+			<div class="pic">
+				<div class="text">
+					<p>Pic</p>
+				</div> 
+				<div class="image">
+					<img src="img/sjtu.png" alt="not support">
+				</div>
+			</div>
+			<div class="pic">
+				<div class="text">
+					<p>Pic</p>
+				</div> 
+				<div class="image">
+					<img src="img/sjtu.png" alt="not support">
+				</div>
+			</div>
+			<div class="pic">
+				<div class="text">
+					<p>Pic</p>
+				</div> 
+				<div class="image">
+					<img src="img/sjtu.png" alt="not support">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="art">
+	<h2><b>Last article header 1</b></h2>
+	<h2 class="header2"><b>Last article header 2</b></h2>
+	<p class="author">author publish_date</p>
+	<ol>
+		<li>item1</li>
+		<li>item2</li>
+		<li>item3</li>
+	</ol>
+	<p>Following is a table</p>
+	<table border="1" width="100%">
+		<tr>
+			<th>header 1</th>
+			<th>header 2</th>
+			<th>header 3</th>
+		</tr>
+		<tr>
+			<td>data 1</td>
+			<td>data 2</td>
+			<td><a href="#start">back to top</a></td>
+		</tr>
+		<tr class="sum">
+			<td>sum</td>
+			<td colspan="2">1000</td>
+		</tr>
+	</table>
+	</div>
+
+	<div class="side">
+		<h2><b>This will be a sidebar in the future</b></h2>
+		<div class="sideContent">
+			<form action="form_action.asp" method="get">
+			email address:
+			<input type="email" name="email" placeholder="enter your email"> <br />
+			<span>enter the address according to the instruction</span>
+			<br /> <br />
+			password:
+			<input type="password" name="password" placeholder="enter your password"> <br />
+			password confirm:
+			<input type="password" name="password2" placeholder="confirm password"> <br />
+			<span>password should be letter or number, 6-16 digits</span>
+			<br /> <br />
+
+			Gender:
+			<input type="radio" name="gender" value="male">male
+			<input type="radio" name="gender" value="female">female
+			<br />
+			City:
+			<select name="city" id="city">
+				<option value="Beijing">Beijing</option>
+				<option value="Shanghai">Shanghai</option>
+			</select>
+			<br />
+			Hobby:
+			<input type="checkbox"> sport
+			<input type="checkbox"> science
+			<br />
+			self description:
+			<span>
+			<textarea name="description" id="discription" cols="30" rows="10" placeholder="this is your self-description"></textarea><br />
+			<input id="submit" type="submit"><br />
+			</span>
+			Copyright Hao Fu
+		</form>
+		</div>
+		
+	</div>
+</div>
+
+</body>
+

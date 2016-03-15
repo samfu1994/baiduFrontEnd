@@ -12,7 +12,7 @@ problem2:when collapse, the right part will be moved into next level -->
 		body{
 			padding: 20px;
 			background-color: white;
-			border: 1px solid #999;
+			border: 1px solid black;
 			margin: 0;
 			height: 1500px;
 		}
@@ -27,30 +27,20 @@ problem2:when collapse, the right part will be moved into next level -->
 			padding: 20px;
 			border-color: #999;
 			max-height: 1500px;
-			width: 100%;
-			margin-left: auto;
-			margin-right: auto;
+			margin-left: 20px;
+			margin-right: 20px;
 		}
 		.content:after{ 
 			content: ''; display: block; height: 0; clear: both; overflow: hidden;
 		}
 		.main{
-			float:left;
-			width: 100%;
-
-			background-color: #DDDDDD;
-			border: 0;
-		}
-		.main .warp{
-			margin: 0 200px 0 250px;
-			min-width: 110px;
+			margin:0 220px 0 330px;
 		}
 
 		.left{
 			float:left;
 			width: 200px;
 			padding: 20px;
-			margin-left: -100%;
 		}
 
 		.left .image{
@@ -72,11 +62,10 @@ problem2:when collapse, the right part will be moved into next level -->
 
 
 		.right{
-			float: left;
+			float: right;
 			background-color: white;
 			width: 120px;
 			height: 420px;
-			margin-left: -150px;
 		}
 
 		.right .pic{
@@ -92,11 +81,7 @@ problem2:when collapse, the right part will be moved into next level -->
 </head>
 <body>
 	<div class="content">
-		<div class="main">
-			<div class="warp">
-			<p>这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍</p>
-			</div>
-		</div>
+		
 
 		<div class="left">
 			<div class="image">
@@ -108,8 +93,6 @@ problem2:when collapse, the right part will be moved into next level -->
 			</div>
 		</div>
 		
-		
-
 		<div class="right">
 			<div class="pic">
 				<img src="img/sjtu.png" alt="logo2">
@@ -124,6 +107,11 @@ problem2:when collapse, the right part will be moved into next level -->
 				<img src="img/sjtu.png" alt="logo2">
 			</div>
 		</div>
+
+		<div class="main">
+			<p>这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍这是一段自我介绍</p>
+		</div>
+
 
 	</div>
 
